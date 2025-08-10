@@ -4,7 +4,9 @@ import './Nav.css'
 function Nav() {
   return (
     <div className='NavWrapper'>
-      <a href='#'>Home</a>
+      <div className="NavContent">
+        <a><i className="fa-solid fa-shield-cat"></i></a>
+      </div>
     </div>
   )
 }

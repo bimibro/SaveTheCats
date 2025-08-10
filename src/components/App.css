@@ -1,3 +1,12 @@
-:root{
+.App{
+  min-height: 100vh;
   background-color: rgba(17, 24, 39);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
 }
