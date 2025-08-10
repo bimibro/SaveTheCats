@@ -3,8 +3,84 @@
     display: flex;
     height: 65px;
     background-color: #fff;
+    justify-content: center;
+}
+.NavContentWrapper {
+    width: 66%;
+    display: flex;
+    align-items: center;
 }
 
-.NavContent {
-    background-color: green;
+/*the logo below was necessary for aligning the logo and logo span text*/
+.Logo { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo i{
+    font-size: 60px;
+    text-decoration: none;
+    color: #ff6e6e;
+}
+.Logo span{
+    padding-left: 15px;
+    font-size: 25px;
+    letter-spacing: -0.5px;
+    font-weight: 800;
+    padding-right: 75px;
+}
+
+.Links{
+    display: flex;
+    height: 100%;
+}
+
+.Links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.Links span{
+    color: #686363;
+    margin-left: 45px;
+    font-size: 21px;
+    letter-spacing:0.8px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 0px, solid, transparent;
+    transition: all 0.1s ease;
+}
+
+.Links span:hover{
+    border-bottom: 2px solid #000;
+    color: #2c2a2a;
+}
+
+.LinkButton{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+.LinkButton i{
+    padding-right: 10px;
+    font-size: 26px;
+}
+.LinkButton button{
+    background: none;
+    font-size: 25px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    background-color: #ff6e6e;
+    color: #fff;
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.LinkButton:hover button{
+    background-color: rgb(251, 50, 50)
 }
