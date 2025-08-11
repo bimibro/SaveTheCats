@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Nav.css'
 
-function Nav() {
+const Nav = () => {
+//javascript for functionality (eg dropdowns)
+
+
   return (
     <div className='NavWrapper'>
       <div className="NavContentWrapper">
@@ -12,7 +15,7 @@ function Nav() {
             <a className='adoption' ><span onClick={() => window.location.href='/adoption'}>Adoption</span></a> {/*Adoption (the benefits of adoption as well as links to adoption sites and information pages.)*/}
             
             <div className='StoriesWrapper'>
-              <a className='stories' ><span onClick={() => window.location.href='/stories'}>More <i class="fa-solid fa-chevron-down"></i></span></a> {/*Stories (stories of cats who have been adopted and rescued. a slideshow of content including the cats story and an image (slides to the next cat / story))*/}
+              <a className='stories' ><span>More <i class="fa-solid fa-chevron-down"></i></span></a> {/*Stories (stories of cats who have been adopted and rescued. a slideshow of content including the cats story and an image (slides to the next cat / story))*/}
               
               <div className='StoriesDropDownWrapper'>
                 <div className='DropDownContent'>
@@ -34,7 +37,7 @@ function Nav() {
                     {/*the content plan with this one is to just have it link to a seperate page that displays the same exact visualisation charts that will be added to the main page later on*/}
                     <div className='DropDownContentBoxes'>
                       <div className='DropDownContentBoxesicon'>
-                        <img src="./public/CatIcon.png" alt="https://www.flaticon.com/free-animated-icons/animals"/>
+                        <img src="./public/CatIcon2.png" alt="https://www.flaticon.com/free-stickers/statistics"/>
                       </div>
                       <div className='DropDownContentBoxesText'>
                         <h4>Statistics & Visualisations</h4>
@@ -45,7 +48,7 @@ function Nav() {
                     {/*Charties. similar idea to box 2. the charity section will already be on the page. but this will link to another page with the exact same charity content*/}
                     <div className='DropDownContentBoxes'>
                       <div className='DropDownContentBoxesicon'>
-                        <img src="./public/CatIcon.png" alt="https://www.flaticon.com/free-animated-icons/animals"/>
+                        <img src="./public/CatIcon3.png" alt="https://www.flaticon.com/free-stickers/charity"/>
                       </div>
                       <div className='DropDownContentBoxesText'>
                         <h4>Charities & Organisations</h4>
@@ -56,7 +59,7 @@ function Nav() {
                     {/*Personal Git Link*/}
                     <div className='DropDownContentBoxes' onClick={() => window.open('https://github.com/bimibro')}>
                       <div className='DropDownContentBoxesicon'>
-                        <img src="./public/CatIcon.png" alt="https://www.flaticon.com/free-animated-icons/animals"/>
+                        <img src="./public/CatIcon4.png" alt="https://www.flaticon.com/free-icons/github"/>
                       </div>
                       <div className='DropDownContentBoxesText'>
                         <h4>Explore My GitHub Portfolio</h4>
