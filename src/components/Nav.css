@@ -10,7 +10,6 @@
     display: flex;
     align-items: center;
 }
-
 /*the logo below was necessary for aligning the logo and logo span text*/
 .Logo { 
     display: flex;
@@ -24,17 +23,15 @@
 }
 .Logo span{
     padding-left: 15px;
-    font-size: 25px;
+    font-size: 26px;
     letter-spacing: -0.5px;
     font-weight: 800;
-    padding-right: 75px;
+    padding-right: 28px;
 }
-
 .Links{
     display: flex;
     height: 100%;
 }
-
 .Links a{
     text-decoration: none;
     display: flex;
@@ -43,21 +40,19 @@
     justify-items: center;
 }
 .Links span{
-    color: #686363;
-    margin-left: 45px;
-    font-size: 21px;
+    color: #9c9393;
+    margin-left: 50px;
+    font-size: 19px;
     letter-spacing:0.8px;
     font-weight: 500;
     cursor: pointer;
     border: 0px, solid, transparent;
     transition: all 0.1s ease;
 }
-
 .Links span:hover{
     border-bottom: 2px solid #000;
     color: #2c2a2a;
 }
-
 .LinkButton{
     display: flex;
     align-items: center;
@@ -83,4 +78,75 @@
 }
 .LinkButton:hover button{
     background-color: rgb(251, 50, 50)
+}
+.StoriesWrapper{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #686363;
+}
+.StoriesDropDownWrapper{
+    background-color: #fff;
+    position: absolute;
+    transform: translateY(330px);
+    width: 480px;
+    height: 580px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+}
+.DropDownContent{
+    display: flex;
+    height: 98%;
+    width: 90%;
+    background-color: #fff;
+    display: block;
+}
+.DropDownTitle{
+    padding-left: 9px;
+}
+.DropDownTitle h3{
+    font-size: 1.4rem;
+    padding-left: 7px;
+}
+.DropDownContentBoxes{
+    border-radius: 15px;
+    padding-left: 7px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;  
+    background-color: #fff;  
+    transition: all 0.2s ease-in;
+}
+.DropDownContentBoxes:hover{
+    cursor: pointer;
+    background-color: #dedddd;
+}
+.DropDownContentBoxesicon{
+    font-size: 45px; 
+    margin-right: 10px;
+}
+.DropDownContentBoxesicon img{
+    width: 55px;
+}
+
+.DropDownContentBoxesText{
+    padding-left: 10px;
+}
+.DropDownContentBoxesText h4{
+    font-size: 18px;
+    color: #000;
+}
+.DropDownContentBoxesText p{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.DropDownContentBoxesText h4, p{
+    margin: 10px 0;
+    padding: 0;
 }
