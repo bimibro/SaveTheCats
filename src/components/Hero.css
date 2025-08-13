@@ -1,0 +1,126 @@
+.roboto-slab-unique {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 900; /* Use a value between 100 and 900 */
+  font-style: normal;
+}
+
+.nunito-sans-unique{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.HeroWrapper{
+    display: flex;
+    width: 100%;
+    height: 92vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.HeroContent{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    margin-top: 2vh;
+
+    justify-content: flex-end;
+}
+
+
+.HeroContentLeft{
+    display: flex;
+    width: 63vh;
+    height: 80vh;
+    margin-left: 14.5vw;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.HeroContentRight{
+    display: flex;
+    width: 100vh;
+    height: 70vh;
+    margin-top: 5vh;
+    border-radius: 50px 0 0 50px;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 5vh;
+}
+
+.HeroContentRight img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 0 0 30px;   
+}
+
+
+.HeroContentLeftBox{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    width: 100%;
+    height: 55%;
+    color: white;
+    word-spacing: -1px;
+
+
+}
+.HeroContentLeftBox span{
+    font-size: 55px;
+}
+.HeroTitleHighlight{
+    color: #ff9999;
+}
+
+.HeroContentLeftBox p{
+    font-size: 20.7px;
+    font-weight: 500;
+}
+
+.HeroContentLeftBottom{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.HeroContentButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.HeroContentLeftBottom a{
+    color: #fff;
+    background-color: #ff9999;
+    text-decoration: none;
+    font-size: 55px;
+    border-radius: 20px;
+    padding: 2vh 7vw;
+    border: 2px solid #ff9999;
+    transition: all 0.1s ease-in-out;
+}
+
+.HeroContentLeftBottom a:hover{
+    color: #ff9999;
+    background-color: transparent;
+    border: 2px solid #ff9999;
+
+}
+
+.HeroContentLeftBottom p{
+    font-size: 18px;
+    font-weight: 400;
+}

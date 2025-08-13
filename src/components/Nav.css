@@ -165,10 +165,11 @@
     padding: 0;
 }
 
-
 /*very important: sets the width of the navbar to be an appropriate size for displays > 1080p such as my main monitor.*/
 @media (min-width: 1921px) {
   .NavContentWrapper {
+    justify-content: center;
     width: 50%;
   }
 }
+

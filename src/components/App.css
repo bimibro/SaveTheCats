@@ -1,11 +1,38 @@
-.App{
+
+
+body, #root {
   min-height: 100vh;
-  background-color: rgba(17, 24, 39);
-  display: flex;
-  flex-direction: column;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-body{
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.App{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(17, 24, 39);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.NavWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.NavContentWrapper{
+  display: flex;
+  justify-content: center;
+  width: 66%;
+  max-width: 3020px;
+}
+
+.NavWrapper, .HeroWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
 }
